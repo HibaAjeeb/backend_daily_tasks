@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'VALIDATION_ERROR' => 'The given data was invalid.',
+    'INVALID_JSON' => 'The request body must be valid JSON.',
+    'UNAUTHORIZED' => 'The token is missing or invalid.',
+    'TOKEN_EXPIRED' => 'The session has expired. Please log in again.',
+    'INVALID_CREDENTIALS' => 'The email or password is incorrect.',
+    'FORBIDDEN' => 'You are not allowed to access this resource.',
+    'NOT_FOUND' => 'The requested resource was not found.',
+    'TASK_NOT_FOUND' => 'The requested task was not found.',
+    'STUDY_PLAN_NOT_FOUND' => 'The requested study plan was not found.',
+    'SPORT_SESSION_NOT_FOUND' => 'The requested sport session was not found.',
+    'CATEGORY_NOT_FOUND' => 'The requested category was not found.',
+    'REMINDER_NOT_FOUND' => 'The requested reminder was not found.',
+    'DUPLICATE_CATEGORY' => 'A category with the same name already exists.',
+    'EMAIL_ALREADY_EXISTS' => 'The email address is already in use.',
+    'INVALID_DATE_RANGE' => 'The end date must be after the start date.',
+    'INVALID_RECURRENCE_RULE' => 'The recurrence rule is invalid.',
+    'INVALID_ENTITY_TYPE' => 'The entity type is not supported.',
+    'SYNC_CONFLICT' => 'A sync conflict was detected.',
+    'CONFLICT_NOT_FOUND' => 'The requested conflict was not found.',
+    'CONFLICT_ALREADY_RESOLVED' => 'This conflict has already been resolved.',
+    'RATE_LIMIT_EXCEEDED' => 'Too many requests. Please try again later.',
+    'INTERNAL_ERROR' => 'An unexpected error occurred.',
+];
